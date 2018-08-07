@@ -1,0 +1,32 @@
+<div class="container">
+	<div class="row">
+		<div class="col-sm-12" ng-init="loadingMenu=true">
+			<center><div ng-if="loadingRooms"  ng-init="initialize()" id="loader" class="loader" ></div></center>
+			<table ng-if="!loadingMenu" class="table animate-bottom"  id="foodList">
+			<tr>
+			<th>
+			name
+			</th>
+			
+			<th>
+			price
+			</th>
+			
+			
+			</tr>
+				<tr  ng-repeat="food in foods"  class="animate-bottom">
+					<td>
+    				{{table.name}}
+					</td>
+					<td>
+    				{{table.price}}
+					</td>
+					
+					<td>
+					<button id="{{table.id}}" ng-click="placeOrder(table.id)">book</button>
+					</td>
+  				</tr>
+			</table>
+		</div>
+	</div>
+</div>

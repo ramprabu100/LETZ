@@ -1,0 +1,16 @@
+[{
+	"type": "deluxe",
+	"size": "Big",
+	"restaurant":"A2B"
+	},
+	{
+	"type": "deluxe",
+	"size": "Small",
+	"restaurant":"Sangam"
+	},
+	{
+	"type": "deluxe",
+	"size": "Medium",
+	"restaurant":"A2B"
+	}
+]
